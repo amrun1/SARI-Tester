@@ -1,4 +1,4 @@
-.password {
+input[type=text]{
     -webkit-text-security: disc !important;
     -moz-webkit-text-security: disc !important;
     -moz-text-security: disc !important;
