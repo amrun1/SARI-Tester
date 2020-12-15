@@ -6,12 +6,10 @@ input[type="text"] {
     border-bottom: 1px solid black;
 }
 
-input[type="password"] {
+.password {
     -webkit-text-security: disc !important;
     -moz-webkit-text-security: disc !important;
     -moz-text-security: disc !important;
-    border: none;
-    border-bottom: 1px solid black;
 }
 
 /* Chrome, Safari, Edge, Opera */
