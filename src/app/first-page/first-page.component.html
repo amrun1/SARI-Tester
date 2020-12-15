@@ -5,5 +5,11 @@
     <p>OS : {{ data?.operatingSystem }}</p>
     <p>Platform : {{ data?.platform }}</p>
   </div>
-  <input type="text" inputmode="numeric">
+  <div style="margin-bottom: 10px;">
+    <label>Password Numeric</label>
+    <input type="password" pattern="[0-9]*" inputmode="numeric"></div>
+  <div style="margin-bottom: 10px;"><label>Text qwerty</label>
+    <input type="text" inputmode="text"></div>
+  <div> <label>Text Numeric</label>
+    <input type="number" inputmode="numeric"></div>
 </div>
